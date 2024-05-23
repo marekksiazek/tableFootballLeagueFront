@@ -1,0 +1,14 @@
+.technologies_wrapper{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.techItem {
+    display: flex;
+    font-size: 3rem;
+    font-family: "Audiowide";
+}
+
+.techName{
+    margin-right: auto;
+}

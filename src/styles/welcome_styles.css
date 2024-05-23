@@ -1,0 +1,52 @@
+.welcome_section_wrapper {
+    margin: 0 auto;
+    padding-top: 5rem;
+    height: 100vh;
+}
+
+.welcome_section {
+    text-align: left;
+    font-family: "Audiowide";
+    font-size: 7.4rem;
+    color: #120925;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.text_name {
+    color: #F5963B;
+}
+
+.link_section{
+    text-align: center;
+    color: #120925;
+}
+
+.link_section a {
+    font-size: 3.7rem;
+    text-decoration: none;
+    color: #120925;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border: solid 6px;
+    border-radius: 50px;
+    background-image:
+    linear-gradient(#F5963B 0 0),
+    linear-gradient(#F5963B 0 0);
+    background-repeat: no-repeat;
+    background-size: 50% .08em;
+    background-position:
+        -100% 100%,
+        200% 0;
+    transition: background-size .3s, background-position .3s .3s
+}
+
+.link_section a:hover{
+    background-size: 52% 100%;
+    background-position:
+        0 100%,
+        100% 0;  
+    transition: background-size .3s .3s, background-position .3s;
+}
+

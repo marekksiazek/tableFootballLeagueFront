@@ -1,0 +1,123 @@
+.contactFormWrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.subBtn{
+    margin: 3rem 0;
+}
+
+.nameFieldLabel{
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    z-index: 3;
+}
+
+.nameField{
+    border: none;
+    border-bottom: #120925 solid 4px;
+    margin-bottom: 3rem;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+}
+
+.nameField:focus{
+    outline: none;
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.nameField:valid{
+    margin-top: 2rem;
+}
+
+.emailFieldLabel{
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    z-index: 3;
+}
+
+.emailField{
+    border: none;
+    border-bottom: #120925 solid 4px;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    transition: 0.5s;
+}
+
+.emailField:focus{
+    outline: none;
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.emailField:valid{
+    margin-top: 2rem;
+}
+
+.msgFieldLabel{
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    z-index: 3;
+}
+
+.msgField{
+    border: none;
+    border-bottom: #120925 solid 4px;
+    margin-bottom: 3rem;
+    height: 2vh;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    transition: 0.5s;
+}
+
+
+.msgField:focus{
+    outline: none;
+    height: 10vh;
+    margin-top: 2rem;
+    transition: 0.5s; 
+}
+
+.msgField:valid{
+    margin-top: 2rem;
+    height: 10vh;
+}
+
+.subBtn{
+    text-decoration: none;
+    color: #120925;
+    width: auto;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border: #120925 solid 3px;
+    border-radius: 50px;
+    background-image: 
+    linear-gradient(#F5963B 0 0),
+    linear-gradient(#F5963B 0 0);
+    background-repeat: no-repeat;
+    background-size: 50% .08em;
+    background-position:
+        -100% 100%,
+        200% 0;
+    transition: background-size .3s, background-position .3s .3s
+}
+
+.subBtn:hover{
+    background-size: 52% 100%;
+    background-position:
+        0 100%,
+        100% 0;  
+    transition: background-size .3s .3s, background-position .3s;
+}

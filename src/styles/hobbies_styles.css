@@ -1,0 +1,13 @@
+.hobbiesWrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hobbiesDescr{
+    width: 60%;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 200%;
+    margin-right: auto;
+}

@@ -1,0 +1,57 @@
+.navbar {
+    padding-top: 3rem;
+    display: flex;
+}
+
+.logo_top{
+    width: 20%;
+    margin-right: auto;
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    height: fit-content;
+}
+
+.navItem{
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+
+.link {
+    display: inline-block;
+    position: relative;
+    color: #120925;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.5rem;
+    bottom: 0;
+    left: 0;
+    background-color: #F5963B;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.link:hover{
+    font-weight: 800;
+}
+
+.navList li + li {
+    padding-left: 32px;
+}

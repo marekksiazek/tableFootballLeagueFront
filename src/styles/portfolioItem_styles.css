@@ -1,0 +1,85 @@
+.portfolioItemWrapper {
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.itemTitleText{
+    color: #120925;
+    font-family: "Audiowide";
+    font-size: 5.4rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3rem;
+}
+
+.codeScreen {
+    width: 70%;
+}
+
+
+.description {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: left;
+    color: #120925;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+.technologies {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #120925;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+.linkWrapper{
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.linkWrapper a + a {
+    margin-left: 5rem;
+}
+
+.linkButton {
+    text-decoration: none;
+    color: #120925;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border: #120925 solid 3px;
+    border-radius: 50px;
+    background-image: 
+    linear-gradient(#F5963B 0 0),
+    linear-gradient(#F5963B 0 0);
+    background-repeat: no-repeat;
+    background-size: 50% .08em;
+    background-position:
+        -100% 100%,
+        200% 0;
+    transition: background-size .3s, background-position .3s .3s
+}
+
+.linkButton:hover{
+    background-size: 50% 100%;
+    background-position:
+        0 100%,
+        100% 0;  
+    transition: background-size .3s .3s, background-position .3s;
+}
+
+.linkIcon{
+    height: 2rem;
+    margin-left: 4px;
+}
