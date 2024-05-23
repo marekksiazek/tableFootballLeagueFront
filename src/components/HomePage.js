@@ -27,6 +27,7 @@ export default function HomePage(){
             tech = {"JAVA, SpringBoot, Vue, MySQL"}
             demoUrl = {"https://marekksiazek.pl/tf"}
             githubUrl = {"https://github.com/marekksiazek/tableFootballLeague"}
+            githubUrlFront={"https://github.com/marekksiazek/tableFootballLeagueFront/tree/main"}
         />
         <PortfolioItem 
             itemTitle = {"Tytuł 2"}
