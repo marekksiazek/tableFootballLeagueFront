@@ -7,6 +7,7 @@
 
 .profPic {
     height: 100%;
+    max-width: 30%;
     margin-right: 8rem;
     margin-top: auto;
     margin-bottom: auto;
@@ -18,4 +19,13 @@
     font-size: 2rem;
     font-weight: 600;
     line-height: 200%;
+}
+
+.aboutTextWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTextWrapper p+p{
+    margin-top: 2rem;
 }
